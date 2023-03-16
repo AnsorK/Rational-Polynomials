@@ -134,21 +134,6 @@ public final class RatPoly {
     }
 
     /**
-     * Scales coefficients within 'arr' by 'scalar' (helper procedure).
-     *
-     * @param arr The RatNums to be scaled.
-     * @param scalar the value by which to scale coefficients in arr.
-     * @requires arr, scalar != null
-     * @modifies arr
-     * @effects Forall i s.t. 0 <= i < arr.length, arr_post[i] = arr_pre[i]*scalar
-     *
-     */
-    private static void scaleCoeff(RatNum[] arr, RatNum scalar) {
-    	for (int i = 0; i < arr.length; ++i)
-    		arr[i] = arr[i].mul(scalar);
-    }
-
-    /**
      * Return the additive inverse of this RatPoly.
      *
      * @return a RatPoly equal to "0 - this"; if this.isNaN(), returns some r
