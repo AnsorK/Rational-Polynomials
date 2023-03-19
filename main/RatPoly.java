@@ -1,5 +1,3 @@
-package hw3;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -165,8 +163,6 @@ public final class RatPoly {
     		return p;
     	if (p.isZero())
     		return this;
-    	if (p.equals(this.negate()))
-    		return ZERO;
     	int d = degree > p.degree() ? degree : p.degree();
     	RatNum[] rats = new RatNum[d + 1];
     	for (int i = 0; i < d + 1; ++i) {

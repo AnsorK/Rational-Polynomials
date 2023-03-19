@@ -1,5 +1,3 @@
-package hw3;
-
 /** <b>RatNum</b> represents an <b>immutable</b> rational number.
     It includes all of the elements in the set of rationals, as well
     as the special "NaN" (not-a-number) element that results from

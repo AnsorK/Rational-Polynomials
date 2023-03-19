@@ -1,10 +1,6 @@
-package hw3;
-
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-
 import org.junit.Test;
-import org.junit.BeforeClass;
 
 /**
  * This class contains a set of test cases that can be used to test the
